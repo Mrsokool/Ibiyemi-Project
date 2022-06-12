@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="payment.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="paymentcontainer">
+        <div class="paycenter">
+          <div class="checkout">
+            <h2 class="checkouttext">Checkout</h2>
+          </div>
+
+          <div class="form">
+            <h3 class="big">Select Payment Method</h3>
+            <img class="payicon" src="images/paypal.webp" alt="" />
+            <img class="payicon" src="images/visa.webp" alt="" />
+            <img class="payicon" src="images/mastercard.webp" alt="" />
+            <form action="">
+              <div class="radio">
+                  <input type="radio" name="payment" id="paypal"  required/>
+                  <label for="paypal">Paypal</label>
+                  <input type="radio" name="payment" id="visacard" />
+                  <label for="visacard">Visa Card</label>
+                  <input type="radio" name="payment" id="mastercard" />
+                  <label for="mastercard">Master Card</label>
+              </div>
+
+              <p class="bigtext">Personal Info</p>
+              <label for="email">Email Address</label>
+              <p class="lab">
+                We will send the purchase receipt to this address
+              </p>
+              <input
+                class="textbox"
+                type="email"
+                placeholder="Enter Email"
+                pattern="[a-zA-Z0-9]{2,}(@)[a-z]{2,}.[a-z]{2,}"
+                required
+              />
+
+              <br />
+              <label for="firstname">First Name</label>
+              <p class="lab">
+                We will use this to personalize your account experience
+              </p>
+              <input
+                class="textbox"
+                type="text"
+                name="firstname"
+                id="firstname"
+                placeholder="First Name"
+                required
+              />
+
+              <br />
+              <label for="lastname">Last Name</label>
+              <p class="lab">
+                We will use this to personalize your account experience
+              </p>
+              <input
+                class="textbox"
+                type="text"
+                name="lastname"
+                id="lastname"
+                placeholder="Last Name"
+                required
+              />
+
+              <br />
+              <br />
+              <!-- TERMS AND CONDITION STARTS HERE -->
+              <div class="showterms" id="showterms">
+                <a class="btn" href="#termsandcondition">Terms and Condition</a>
+
+                <div id="termsandcondition" class="terms">
+                  <h3>LICENCING INFORMATION</h3>
+                  <div class="addionalinfo">
+                    <h3>(1) ADDITIONAL INFORMATION</h3>
+                    <p>
+                      Leasing, Premium or Unlimited licenses grant non-exclusive
+                      rights. And also Leasing, Premium or Unlimited licenses
+                      can be sold to more than one person at the same time until
+                      exclusive rights have been sold to the beat. Credit must
+                      always be given to ‘O.Y Productions. By making a purchase
+                      of any kind, the customer declares that he will give
+                      credit to the producer where possible in a written form
+                      (CD Cover/Booklet, YouTube videos, Social Network pages
+                      such as Facebook, Instagram etc.). Proper credit is given
+                      as follows: ‘Beat prod. by O.Y’ or ‘Music prod. by O.Y’.
+                      Any displayed or downloadable MP3 files must include
+                      ‘Prod. by O.Y’ within the file name.
+                    </p>
+                  </div>
+                  <div class="download">
+                    <h3>(2) FREE DOWNLOAD POLICY</h3>
+                    <p>
+                      Free downloads of any beat produced by ‘O.Y’ do not
+                      include any artistic or legislative rights to the beat.
+                      Those versions are only for non profitable use, meaning
+                      only for demo tracks. You are allowed to upload tracks
+                      (recorded over free downloaded beats) on internet pages
+                      like Instagram, Myspace, Soundclick, Facebook, Soundcloud
+                      or Youtube, etc. When being uploaded or presented (for
+                      demonstrational use only!), credit always has to be given
+                      in a written form to ‘O.Y’ (e.g. in the song description).
+                      You are NOT allowed to put the track on a mixtape or
+                      album, even if it is for promotional use only. For this
+                      purpose you need to purchase at least a lease. The meaning
+                      of free downloads is to do a song for yourself, to do
+                      first pre-recordings and to see if the song works out well
+                      & maybe it's worth it, to make investments in one of the
+                      license types. It is not allowed to make any kind of
+                      profit with free download versions. No video-, no TV-, no
+                      radio- airplay allowed! Furthermore it is not allowed to
+                      make any changes to the beat or remove any of the used
+                      tags. Copying or ripping any audio material (e.g. beat,
+                      tag, sounds, instruments, drums, etc.) is prohibited and
+                      will not be tolerated at any time! The customer is
+                      breaching the terms of this agreement and most likely face
+                      a law suit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- TERMS AND CONDITION END HERE -->
+
+              <br />
+              <input type="checkbox" name="checkbox" id="checkbox" required />
+              <label for="checkbox">I Agree to License Terms</label>
+              <br />
+
+              <p><span>Purchase Total: $</span></p>
+
+              <br />
+              <input class="button" type="submit" value="Purchase" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+<script>
+    $
+</script>
+    <script src="payment.js"></script>
+  </body>
+</html>

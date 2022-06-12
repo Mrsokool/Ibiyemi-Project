@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  margin: 0;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.paymentcontainer {
+  width: 90%;
+  min-height: inherit;
+  background-color: #f1eded;
+  margin: 0 auto;
+}
+
+.paycenter {
+  width: 70%;
+  min-height: inherit;
+  margin: 0 auto;
+}
+
+.checkouttext {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.form {
+  width: 100%;
+  min-height: 40vh;
+}
+
+.big {
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.radio {
+  width: 100%;
+}
+
+.payicon {
+  width: 40px;
+  margin-bottom: 2%;
+  margin-right: 1%;
+}
+
+.bigtext {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.lab {
+  margin-top: 1%;
+}
+
+.textbox {
+  width: 70%;
+  height: 40px;
+  margin-bottom: 2%;
+}
+
+.textbox::placeholder {
+  font-size: 1rem;
+}
+/*  TERMS AND CONDITION STYLING START HERE */
+.showterms {
+  margin-top: -1%;
+}
+
+.terms {
+  display: none;
+}
+
+.btn {
+  color: #dd9933;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.btn:hover {
+  text-decoration: underline;
+}
+
+.btns {
+  color: #dd9933;
+  text-decoration: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.btns:hover {
+  text-decoration: underline;
+}
+
+.addionalinfo p {
+  width: 70%;
+}
+
+.download {
+  margin-top: 4%;
+}
+
+.download p {
+  width: 70%;
+}
+
+/*  TERMS AND CONDITION STYLING END HERE */
+
+.button {
+  padding: 1.2% 3%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #dd9933;
+  border: none;
+  border-radius: 5%;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
